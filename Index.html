@@ -1,412 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MWENGI MUTUKU - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoBlog</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <a href="#" class="logo">Mwengi<span>.</span></a>
-                <ul class="nav-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">NeoBlog</h1>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Hello, I'm <span>Mwengi Mutuku</span></h1>
-                    <h3>Web Developer & UI/UX Designer</h3>
-                    <p>Creative designer and developer based in Nairobi, Kenya. I create beautiful, functional websites and applications with a focus on user experience.</p>
-                    <a href="#contact" class="btn">Hire Me</a>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="Images/Tush.png" alt="Mwengi Mutuku">
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="hero" class="hero">
+    <div class="container">
+      <h2>Welcome to the Future of Blogging</h2>
+      <p>Experience immersive, modern, and responsive blogging like never before.</p>
+      <a href="#blogs" class="btn">Explore Blogs</a>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>About Me</h2>
-                <p>Web Developer & UI/UX Designer based in Nairobi, Kenya since 2023</p>
-            </div>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="Images/Tush.png" alt="About Mwengi">
-                </div>
-                <div class="about-text">
-                    <h3>Hello, I'm Mwengi, Based in Kenya</h3>
-                    <p>I'm a passionate web developer and designer with a focus on creating intuitive user experiences. My journey in tech started with self-learning through online resources and has now evolved into formal training at Power Learn Project.</p>
-                    <div class="about-info">
-                        <div class="info-item">
-                            <i class="fas fa-phone"></i>
-                            <div class="info-text">
-                                <h4>Phone</h4>
-                                <p>+254 712 345 678</p>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info-text">
-                                <h4>Email</h4>
-                                <p>contact@mwengi.com</p>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info-text">
-                                <h4>Address</h4>
-                                <p>Lower Kabete, Nairobi</p>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-flag"></i>
-                            <div class="info-text">
-                                <h4>Nationality</h4>
-                                <p>Kenyan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="btn">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="blogs" class="blogs">
+    <div class="container">
+      <h2 class="section-title">Latest Posts</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="Images/blog1.jpg" alt="Blog 1" class="blog-img" />
+          <h3>Embracing the Future of Web Design</h3>
+          <p>Discover how futuristic UI and UX principles are shaping the internet.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
 
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container">
-            <div class="section-title">
-                <h2>Education</h2>
-                <p>My education qualification</p>
-            </div>
-            <div class="education-container">
-                <div class="education-item">
-                    <h3>Power Learn Project</h3>
-                    <span class="date">2023 - Present</span>
-                    <h4>Software Development</h4>
-                    <p>Currently enrolled in a comprehensive software development program covering frontend and backend technologies, database management, and software engineering principles.</p>
-                </div>
-                <div class="education-item">
-                    <h3>Self-Taught</h3>
-                    <span class="date">2021 - Present</span>
-                    <h4>Web Development & Design</h4>
-                    <p>Learned through online platforms like FreeCodeCamp, W3Schools, and YouTube tutorials. Gained practical skills in HTML, CSS, JavaScript, and UI/UX design principles.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <article class="blog-card">
+          <img src="Images/blog2.jpg" alt="Blog 2" class="blog-img" />
+          <h3>AI in Content Creation</h3>
+          <p>Explore how artificial intelligence is revolutionizing blogging.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <div class="section-title">
-                <h2>Experience</h2>
-                <p>My real work experience</p>
-            </div>
-            <div class="experience-container">
-                <div class="experience-item">
-                    <h3>Freelance Web Developer</h3>
-                    <span class="date">2022 - Present</span>
-                    <p>Worked with various clients to design and develop responsive websites. Collaborated with clients to understand their needs and deliver customized solutions.</p>
-                </div>
-                <div class="experience-item">
-                    <h3>UI/UX Designer</h3>
-                    <span class="date">2023 - Present</span>
-                    <p>Created wireframes, prototypes, and high-fidelity designs for web and mobile applications. Conducted user research and usability testing.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p>NeoBlog is a modern blogging platform designed for tomorrow's storytellers. Join us as we redefine digital expression.</p>
+    </div>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <div class="section-title">
-                <h2>Skills</h2>
-                <p>My expertise skills</p>
-            </div>
-            <div class="skills-container">
-                <div class="skill-item">
-                    <div class="skill-circle" style="--dash-offset: 44;">
-                        <svg>
-                            <circle cx="60" cy="60" r="50"></circle>
-                            <circle cx="60" cy="60" r="50"></circle>
-                        </svg>
-                        <div class="skill-number">90%</div>
-                    </div>
-                    <h3>HTML & CSS</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" style="--dash-offset: 66;">
-                        <svg>
-                            <circle cx="60" cy="60" r="50"></circle>
-                            <circle cx="60" cy="60" r="50"></circle>
-                        </svg>
-                        <div class="skill-number">85%</div>
-                    </div>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" style="--dash-offset: 49;">
-                        <svg>
-                            <circle cx="60" cy="60" r="50"></circle>
-                            <circle cx="60" cy="60" r="50"></circle>
-                        </svg>
-                        <div class="skill-number">89%</div>
-                    </div>
-                    <h3>Figma</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" style="--dash-offset: 60;">
-                        <svg>
-                            <circle cx="60" cy="60" r="50"></circle>
-                            <circle cx="60" cy="60" r="50"></circle>
-                        </svg>
-                        <div class="skill-number">80%</div>
-                    </div>
-                    <h3>React</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" style="--dash-offset: 75;">
-                        <svg>
-                            <circle cx="60" cy="60" r="50"></circle>
-                            <circle cx="60" cy="60" r="50"></circle>
-                        </svg>
-                        <div class="skill-number">75%</div>
-                    </div>
-                    <h3>Node.js</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" style="--dash-offset: 55;">
-                        <svg>
-                            <circle cx="60" cy="60" r="50"></circle>
-                            <circle cx="60" cy="60" r="50"></circle>
-                        </svg>
-                        <div class="skill-number">83%</div>
-                    </div>
-                    <h3>UI/UX Design</h3>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <form id="contact-form" class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Services</h2>
-                <p>What I do for you</p>
-            </div>
-            <div class="services-container">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <h3>Web Design</h3>
-                    <p>Create beautiful, responsive websites that look great on all devices and provide an excellent user experience.</p>
-                    <ul>
-                        <li>UI/UX Design</li>
-                        <li>Responsive Layouts</li>
-                        <li>Brand Identity</li>
-                    </ul>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Build fast, secure, and scalable websites and web applications using modern technologies and best practices.</p>
-                    <ul>
-                        <li>Frontend Development</li>
-                        <li>Backend Development</li>
-                        <li>API Integration</li>
-                    </ul>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>Mobile Design</h3>
-                    <p>Design intuitive mobile interfaces that provide seamless user experiences across different devices and platforms.</p>
-                    <ul>
-                        <li>Mobile UI Design</li>
-                        <li>Prototyping</li>
-                        <li>User Testing</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <p>My Recent Works</p>
-            </div>
-            <div class="portfolio-container">
-                <div class="portfolio-item">
-                    <img src="Images/Project1.jpg" alt="Project 1">
-                    <div class="portfolio-overlay">
-                        <div class="plus-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                        <h3>E-Commerce Website</h3>
-                        <p>Web Design</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="Images/Project2.jpg" alt="Project 2">
-                    <div class="portfolio-overlay">
-                        <div class="plus-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                        <h3>Task Management App</h3>
-                        <p>Web Development</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Contact Me</h2>
-                <p>Let's Start A New Project</p>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="info-text">
-                            <h4>Address</h4>
-                            <p>Lower Kabete, Nairobi, Kenya</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div class="info-text">
-                            <h4>Email</h4>
-                            <p>contact@mwengi.com</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div class="info-text">
-                            <h4>Phone</h4>
-                            <p>+254 712 345 678</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-globe-africa"></i>
-                        <div class="info-text">
-                            <h4>Freelance</h4>
-                            <p>Available</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <h3>Send Message</h3>
-                    <form id="contactForm">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" class="form-control" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Your Email</label>
-                                <input type="email" id="email" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="phone">Your Phone</label>
-                                <input type="text" id="phone" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="project">Your Project</label>
-                                <input type="text" id="project" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" class="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.854486940637!2d36.73821461475393!3d-1.2549995359634918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173c0a1f9de7%3A0xad2c84df1f7f2ec8!2sLower%20Kabete%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1620000000000!5m2!1sen!2ske" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">Mwengi<span>.</span></div>
-                <ul class="footer-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-                <p class="copyright">© 2025 Mwengi Mutuku. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-            <!-- Scroll to Top Button -->
-        <button id="scrollToTopBtn" class="scroll-to-top">
-            <i class="fas fa-arrow-up"></i>
-        </button>
-
-    <script src="js/script.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 NeoBlog. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
