@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/Index.html"
-    }
-  ]
+  "public": true,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
